@@ -10,11 +10,11 @@
 		52165B0E2BCF205500A1FC27 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52165B0D2BCF205500A1FC27 /* AVFoundation.framework */; };
 		52165B102BCF205E00A1FC27 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52165B0F2BCF205E00A1FC27 /* CoreMedia.framework */; };
 		52165B122BCF206800A1FC27 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52165B112BCF206800A1FC27 /* CoreFoundation.framework */; };
-		52165B142BCF207500A1FC27 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52165B132BCF207500A1FC27 /* opencv2.framework */; };
 		52165B1B2BCF21EE00A1FC27 /* OpenCVImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52165B1A2BCF21EE00A1FC27 /* OpenCVImage.mm */; };
 		52165B1E2BCF25C500A1FC27 /* OpenCVCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52165B1D2BCF25C500A1FC27 /* OpenCVCamera.mm */; };
 		52165B222BCFD19000A1FC27 /* UIImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52165B212BCFD19000A1FC27 /* UIImage.mm */; };
 		52165B242BCFE1E300A1FC27 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52165B232BCFE1E300A1FC27 /* MainViewController.swift */; };
+		52165B262BD0014E00A1FC27 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52165B252BD0014E00A1FC27 /* opencv2.framework */; };
 		521EAB4D2BCBFF8B0047CC91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EAB4C2BCBFF8B0047CC91 /* AppDelegate.swift */; };
 		521EAB4F2BCBFF8B0047CC91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EAB4E2BCBFF8B0047CC91 /* SceneDelegate.swift */; };
 		521EAB562BCBFF8D0047CC91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521EAB552BCBFF8D0047CC91 /* Assets.xcassets */; };
@@ -45,7 +45,6 @@
 		52165B0D2BCF205500A1FC27 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		52165B0F2BCF205E00A1FC27 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		52165B112BCF206800A1FC27 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		52165B132BCF207500A1FC27 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = "3rd Party/opencv2.framework"; sourceTree = "<group>"; };
 		52165B182BCF21ED00A1FC27 /* Face Recognition-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = "Face Recognition-Bridging-Header.h"; sourceTree = "<group>"; };
 		52165B192BCF21EE00A1FC27 /* OpenCVImage.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = OpenCVImage.hpp; sourceTree = "<group>"; };
 		52165B1A2BCF21EE00A1FC27 /* OpenCVImage.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = OpenCVImage.mm; sourceTree = "<group>"; };
@@ -54,6 +53,7 @@
 		52165B202BCFD19000A1FC27 /* UIImage.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = UIImage.hpp; sourceTree = "<group>"; };
 		52165B212BCFD19000A1FC27 /* UIImage.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = UIImage.mm; sourceTree = "<group>"; };
 		52165B232BCFE1E300A1FC27 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		52165B252BD0014E00A1FC27 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = "3rd Part/opencv2.framework"; sourceTree = "<group>"; };
 		521EAB492BCBFF8B0047CC91 /* Face Recognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Face Recognition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		521EAB4C2BCBFF8B0047CC91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		521EAB4E2BCBFF8B0047CC91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 			files = (
 				52165B102BCF205E00A1FC27 /* CoreMedia.framework in Frameworks */,
 				52165B0E2BCF205500A1FC27 /* AVFoundation.framework in Frameworks */,
-				52165B142BCF207500A1FC27 /* opencv2.framework in Frameworks */,
+				52165B262BD0014E00A1FC27 /* opencv2.framework in Frameworks */,
 				52165B122BCF206800A1FC27 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,7 +99,7 @@
 		52165B0C2BCF205400A1FC27 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				52165B132BCF207500A1FC27 /* opencv2.framework */,
+				52165B252BD0014E00A1FC27 /* opencv2.framework */,
 				52165B112BCF206800A1FC27 /* CoreFoundation.framework */,
 				52165B0F2BCF205E00A1FC27 /* CoreMedia.framework */,
 				52165B0D2BCF205500A1FC27 /* AVFoundation.framework */,
@@ -496,6 +496,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/3rd\\ Party",
+					"$(PROJECT_DIR)/3rd\\ Part",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Face Recognition/Info.plist";
@@ -531,6 +532,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/3rd\\ Party",
+					"$(PROJECT_DIR)/3rd\\ Part",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Face Recognition/Info.plist";

@@ -109,6 +109,6 @@ class MainViewController: UIViewController, UINavigationControllerDelegate, UIIm
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         pickerController.dismiss(animated: true, completion: nil)
         guard let image = info[.originalImage] as? UIImage else { return }
-        pictureView.image = image
+        pictureView.image = OpenCVImage.classifyImage(image)
     }
 }
