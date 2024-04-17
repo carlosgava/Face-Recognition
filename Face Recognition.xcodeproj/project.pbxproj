@@ -3,14 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52165B0E2BCF205500A1FC27 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52165B0D2BCF205500A1FC27 /* AVFoundation.framework */; };
+		52165B102BCF205E00A1FC27 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52165B0F2BCF205E00A1FC27 /* CoreMedia.framework */; };
+		52165B122BCF206800A1FC27 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52165B112BCF206800A1FC27 /* CoreFoundation.framework */; };
+		52165B142BCF207500A1FC27 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52165B132BCF207500A1FC27 /* opencv2.framework */; };
+		52165B1B2BCF21EE00A1FC27 /* OpenCVImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52165B1A2BCF21EE00A1FC27 /* OpenCVImage.mm */; };
+		52165B1E2BCF25C500A1FC27 /* OpenCVCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52165B1D2BCF25C500A1FC27 /* OpenCVCamera.mm */; };
+		52165B222BCFD19000A1FC27 /* UIImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52165B212BCFD19000A1FC27 /* UIImage.mm */; };
+		52165B242BCFE1E300A1FC27 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52165B232BCFE1E300A1FC27 /* MainViewController.swift */; };
 		521EAB4D2BCBFF8B0047CC91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EAB4C2BCBFF8B0047CC91 /* AppDelegate.swift */; };
 		521EAB4F2BCBFF8B0047CC91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EAB4E2BCBFF8B0047CC91 /* SceneDelegate.swift */; };
-		521EAB512BCBFF8B0047CC91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EAB502BCBFF8B0047CC91 /* ViewController.swift */; };
-		521EAB542BCBFF8B0047CC91 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 521EAB532BCBFF8B0047CC91 /* Base */; };
 		521EAB562BCBFF8D0047CC91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521EAB552BCBFF8D0047CC91 /* Assets.xcassets */; };
 		521EAB592BCBFF8D0047CC91 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 521EAB582BCBFF8D0047CC91 /* Base */; };
 		521EAB642BCBFF8E0047CC91 /* Face_RecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EAB632BCBFF8E0047CC91 /* Face_RecognitionTests.swift */; };
@@ -36,11 +42,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52165B0D2BCF205500A1FC27 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		52165B0F2BCF205E00A1FC27 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		52165B112BCF206800A1FC27 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		52165B132BCF207500A1FC27 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = "3rd Party/opencv2.framework"; sourceTree = "<group>"; };
+		52165B182BCF21ED00A1FC27 /* Face Recognition-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = "Face Recognition-Bridging-Header.h"; sourceTree = "<group>"; };
+		52165B192BCF21EE00A1FC27 /* OpenCVImage.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = OpenCVImage.hpp; sourceTree = "<group>"; };
+		52165B1A2BCF21EE00A1FC27 /* OpenCVImage.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = OpenCVImage.mm; sourceTree = "<group>"; };
+		52165B1C2BCF25C500A1FC27 /* OpenCVCamera.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = OpenCVCamera.hpp; sourceTree = "<group>"; };
+		52165B1D2BCF25C500A1FC27 /* OpenCVCamera.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = OpenCVCamera.mm; sourceTree = "<group>"; };
+		52165B202BCFD19000A1FC27 /* UIImage.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = UIImage.hpp; sourceTree = "<group>"; };
+		52165B212BCFD19000A1FC27 /* UIImage.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = UIImage.mm; sourceTree = "<group>"; };
+		52165B232BCFE1E300A1FC27 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		521EAB492BCBFF8B0047CC91 /* Face Recognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Face Recognition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		521EAB4C2BCBFF8B0047CC91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		521EAB4E2BCBFF8B0047CC91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		521EAB502BCBFF8B0047CC91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		521EAB532BCBFF8B0047CC91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		521EAB552BCBFF8D0047CC91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		521EAB582BCBFF8D0047CC91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		521EAB5A2BCBFF8D0047CC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52165B102BCF205E00A1FC27 /* CoreMedia.framework in Frameworks */,
+				52165B0E2BCF205500A1FC27 /* AVFoundation.framework in Frameworks */,
+				52165B142BCF207500A1FC27 /* opencv2.framework in Frameworks */,
+				52165B122BCF206800A1FC27 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +96,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52165B0C2BCF205400A1FC27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52165B132BCF207500A1FC27 /* opencv2.framework */,
+				52165B112BCF206800A1FC27 /* CoreFoundation.framework */,
+				52165B0F2BCF205E00A1FC27 /* CoreMedia.framework */,
+				52165B0D2BCF205500A1FC27 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52165B172BCF216000A1FC27 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				52165B1F2BCFD17100A1FC27 /* Extension */,
+				52165B192BCF21EE00A1FC27 /* OpenCVImage.hpp */,
+				52165B1A2BCF21EE00A1FC27 /* OpenCVImage.mm */,
+				52165B1C2BCF25C500A1FC27 /* OpenCVCamera.hpp */,
+				52165B1D2BCF25C500A1FC27 /* OpenCVCamera.mm */,
+				52165B182BCF21ED00A1FC27 /* Face Recognition-Bridging-Header.h */,
+			);
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+		52165B1F2BCFD17100A1FC27 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				52165B202BCFD19000A1FC27 /* UIImage.hpp */,
+				52165B212BCFD19000A1FC27 /* UIImage.mm */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		521EAB402BCBFF8B0047CC91 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +136,7 @@
 				521EAB622BCBFF8E0047CC91 /* Face RecognitionTests */,
 				521EAB6C2BCBFF8E0047CC91 /* Face RecognitionUITests */,
 				521EAB4A2BCBFF8B0047CC91 /* Products */,
+				52165B0C2BCF205400A1FC27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +153,13 @@
 		521EAB4B2BCBFF8B0047CC91 /* Face Recognition */ = {
 			isa = PBXGroup;
 			children = (
+				52165B172BCF216000A1FC27 /* OpenCV */,
 				521EAB4C2BCBFF8B0047CC91 /* AppDelegate.swift */,
 				521EAB4E2BCBFF8B0047CC91 /* SceneDelegate.swift */,
-				521EAB502BCBFF8B0047CC91 /* ViewController.swift */,
-				521EAB522BCBFF8B0047CC91 /* Main.storyboard */,
 				521EAB552BCBFF8D0047CC91 /* Assets.xcassets */,
 				521EAB572BCBFF8D0047CC91 /* LaunchScreen.storyboard */,
 				521EAB5A2BCBFF8D0047CC91 /* Info.plist */,
+				52165B232BCFE1E300A1FC27 /* MainViewController.swift */,
 			);
 			path = "Face Recognition";
 			sourceTree = "<group>";
@@ -195,6 +249,7 @@
 				TargetAttributes = {
 					521EAB482BCBFF8B0047CC91 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 					521EAB5E2BCBFF8E0047CC91 = {
 						CreatedOnToolsVersion = 15.3;
@@ -207,7 +262,7 @@
 				};
 			};
 			buildConfigurationList = 521EAB442BCBFF8B0047CC91 /* Build configuration list for PBXProject "Face Recognition" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -233,7 +288,6 @@
 			files = (
 				521EAB562BCBFF8D0047CC91 /* Assets.xcassets in Resources */,
 				521EAB592BCBFF8D0047CC91 /* Base in Resources */,
-				521EAB542BCBFF8B0047CC91 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +312,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				521EAB512BCBFF8B0047CC91 /* ViewController.swift in Sources */,
+				52165B222BCFD19000A1FC27 /* UIImage.mm in Sources */,
 				521EAB4D2BCBFF8B0047CC91 /* AppDelegate.swift in Sources */,
+				52165B1E2BCF25C500A1FC27 /* OpenCVCamera.mm in Sources */,
+				52165B242BCFE1E300A1FC27 /* MainViewController.swift in Sources */,
 				521EAB4F2BCBFF8B0047CC91 /* SceneDelegate.swift in Sources */,
+				52165B1B2BCF21EE00A1FC27 /* OpenCVImage.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +354,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		521EAB522BCBFF8B0047CC91 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				521EAB532BCBFF8B0047CC91 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		521EAB572BCBFF8D0047CC91 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -331,18 +380,18 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = NO;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -368,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -394,18 +443,18 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = NO;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -425,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -440,14 +489,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2U2LQ974R9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3rd\\ Party",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Face Recognition/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -458,6 +511,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.gservices.Face-Recognition";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Face Recognition/OpenCV/Face Recognition-Bridging-Header.h";
+				SWIFT_OBJC_INTEROP_MODE = objcxx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,14 +524,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2U2LQ974R9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3rd\\ Party",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Face Recognition/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,6 +546,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.gservices.Face-Recognition";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Face Recognition/OpenCV/Face Recognition-Bridging-Header.h";
+				SWIFT_OBJC_INTEROP_MODE = objcxx;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
